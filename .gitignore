@@ -1,22 +1,17 @@
-# Dataset directories
-images/
-masks/
+# Keep repository clean: ignore everything by default
+*
 
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-env/
-venv/
+# Keep this file
+!.gitignore
 
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
+# Allow these two project folders
+!Project_2/
+!Project_3/
 
-# OS
-.DS_Store
-Thumbs.db
+# Ignore all contents inside them by default
+Project_2/*
+Project_3/*
+
+# Keep only the two required notebooks
+!Project_2/Retinal_Vessel_Extraction_Sauvola_vs_Niblack_DRIVE.ipynb
+!Project_3/Cell_Nuclei_Separation_Marker_Controlled_Watershed_DSB2018.ipynb
