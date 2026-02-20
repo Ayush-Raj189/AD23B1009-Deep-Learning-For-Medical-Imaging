@@ -5,13 +5,13 @@
 !.gitignore
 
 # Allow these two project folders
-!Project_2/
 !Project_3/
+!Project_4/
 
 # Ignore all contents inside them by default
-Project_2/*
 Project_3/*
+Project_4/*
 
 # Keep only the two required notebooks
-!Project_2/Retinal_Vessel_Extraction_Sauvola_vs_Niblack_DRIVE.ipynb
-!Project_3/Cell_Nuclei_Separation_Marker_Controlled_Watershed_DSB2018.ipynb
+!Project_3/Retinal_Vessel_Extraction_Sauvola_vs_Niblack_DRIVE.ipynb
+!Project_4/Cell_Nuclei_Separation_Marker_Controlled_Watershed_DSB2018.ipynb
