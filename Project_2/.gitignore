@@ -1,0 +1,3 @@
+*
+!.gitignore
+!WBC_Segmentation_KMeans_vs_FCM_BoundaryAccuracy.ipynb
